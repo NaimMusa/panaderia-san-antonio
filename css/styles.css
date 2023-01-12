@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: #d3d3d3 ;;
+}
+
+/* inicio css especifico*/
+
+#index__body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "foto"
+    "cualidades"
+    "footer";
+    grid-template-columns: 1fr;
+}
+
+/*header*/
+header{
+    background-image: url(../img/diseño-head.png);
+    background-size: cover;
+    background-position: 20rem 70%;
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #b99d85;
+    border-bottom: 0.35rem solid black;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    height: 20rem;
+    z-index: 2;
+    border-radius: 100%;
+}
+
+.menu__nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin: 1.3rem;
+}
+
+.menu__nav a{
+    color: rgb(0, 0, 0);
+    background-color: rgba(215, 226, 215, 0.733);
+    border-radius: 9%;
+    padding: .5rem;
+    font-weight: 900;
+    font-family:'Noto Serif Toto', serif ;
+}
+
+.menu__nav a:hover{
+    background-color: rgba(19, 49, 58, 0.61);
+    padding: .6rem;
+    border-radius: 10%;
+}
+
+.menu__nav img{
+    height: 1.8rem;
+    align-items: center;
+    align-content: center;
+    transform: translatey(0.4rem);
+}
+
+/*index*/
+
+.foto__inicio{
+    background-image: url(../img/foto-panaderia.jpeg);
+    background-size: cover;
+    height: 40rem;
+    grid-area: foto;
+    margin-top: 20rem;
+}
+
+#cualidades{
+    grid-area: cualidades;
+    background-image:url(../img/tabla.jpg) ;
+    background-position: 90% 47%;
+    margin-top: 1rem;
+    padding: 3rem;
+    height: 30rem;
+}
+
+.cualidades__titulo{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: rgb(9, 61, 31);
+    font-family: 'Noto Serif Toto', serif;
+    position: relative;
+    right: 17rem;
+    bottom: 5rem;
+    background-color: rgb(206, 199, 199);
+    border: .3rem solid black;
+}
+
+.cualidades__elementos img{
+height: 8rem;
+}
+
+.calidad{
+    position: relative;
+    bottom: 9rem;
+    right: 3rem;
+}
+
+.cualidades__elementos{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(117, 18, 18);
+}
+
+
+/*footer*/
+footer{
+    grid-area: footer;
+    font-size: 1.5rem;
+}
+
+.contactanos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+padding: 2.5rem;
+}
+
+.contactanos h2{
+position: relative;
+right: 2.5rem;
+}
+
+.contactanos div{
+display: flex;
+    align-items: center;
+}
+
+.contactanos img{
+    height: 3.4rem;
+}
+
+.apps{
+position:relative;
+left: 2rem;
+display: flex;
+flex-direction: column;
+}
+
+.whatsapp img{
+    position: relative;
+    left: 1.5rem;
+}
+
+.ubicacion img{
+    height: 2.3rem;
+}
+
+.telefono img{
+    height: 2.3rem;
+    position: relative;
+    right: .3rem;
+}
