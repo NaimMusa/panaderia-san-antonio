@@ -168,13 +168,6 @@ display: flex;
     height: 3.4rem;
 }
 
-.apps{
-position:relative;
-left: 2rem;
-display: flex;
-flex-direction: column;
-}
-
 .whatsapp img{
     position: relative;
     left: 1.5rem;
