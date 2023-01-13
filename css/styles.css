@@ -47,13 +47,16 @@ header{
     background-color: #b99d85;
     border-bottom: 0.35rem solid black;
     position: fixed;
-    z-index: 6;
+    z-index: 2;
     width: 100%;
 }
 
+#head-sobre{
+    position: static;
+    margin-bottom: 0rem;
+}
 .logo{
     height: 20rem;
-    z-index: 2;
     border-radius: 100%;
 }
 
@@ -141,6 +144,29 @@ height: 8rem;
     color: rgb(117, 18, 18);
 }
 
+/*sobre nosotros*/
+#sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #493d3d;
+}
+
+#sobre img{
+    height: 27rem;
+}
+
+#sobre div{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    color: white;
+}
 
 /*footer*/
 footer{
