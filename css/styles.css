@@ -43,6 +43,14 @@ body{
     grid-template-columns: 1;
 }
 
+#productos__body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "productos"
+    "footer";
+    grid-template-columns: 1;
+}
 /*header*/
 header{
     background-image: url(../img/diseño-head.png);
@@ -60,9 +68,6 @@ header{
     width: 100%;
 }
 
-#head-sobre{
-    position: fixed;
-}
 .logo{
     height: 20rem;
     border-radius: 100%;
@@ -188,6 +193,13 @@ height: 8rem;
     font-family:'Noto Serif Toto', serif ;
     font-size: 3rem;
     color: rgb(255, 147, 5);
+}
+
+/*productos*/
+#productos{
+    margin-top: 27rem;
+    grid-area: productos;
+    border: .5rem solid black;
 }
 
 /*footer*/
