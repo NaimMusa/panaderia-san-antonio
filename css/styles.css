@@ -199,7 +199,29 @@ height: 8rem;
 #productos{
     margin-top: 27rem;
     grid-area: productos;
-    border: .5rem solid black;
+    border: .2rem solid black;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    text-align: center;
+}
+
+#productos img{
+    height: 40rem;
+}
+
+#productos img:hover{
+    height: 50rem;
+}
+
+.product{
+    padding: 3rem;
+    background-color: white;
+    border: .2rem solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
 }
 
 /*footer*/
