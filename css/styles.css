@@ -19,7 +19,8 @@ img{
 }
 
 body{
-    background-color: #d3d3d3 ;;
+    background-color: #d3d3d3 ;
+    min-width: 100%;
 }
 
 /* inicio css especifico*/
@@ -70,7 +71,7 @@ header{
 }
 
 .logo{
-    height: 20rem;
+    height: 13rem;
     border-radius: 100%;
 }
 
@@ -113,7 +114,7 @@ header{
     background-size: cover;
     height: 40rem;
     grid-area: foto;
-    margin-top: 20rem;
+    margin-top: 30rem;
 }
 
 #cualidades{
