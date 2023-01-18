@@ -72,7 +72,7 @@ body{
     "mapa"
     "footer";
     grid-template-columns: 1;
-    background-color: #5c8990;
+    background-image: linear-gradient(to right, #d6d7a5, #5c8990 );
 }
 
 /*header*/
@@ -100,7 +100,7 @@ header{
     flex-direction: column;
     list-style: none;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.8rem;
     font-size: 1.65rem;
     margin: 1.3rem;
 }
@@ -109,7 +109,7 @@ header{
     color: rgb(0, 0, 0);
     background-color: rgba(215, 226, 215, 0.733);
     border-radius: 9%;
-    padding: .5rem;
+    padding: .3rem;
     font-weight: 900;
     font-family:'Noto Serif Toto', serif ;
 }
@@ -337,8 +337,9 @@ option{
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: 'Noto Serif Toto', serif;
+    grid-area: mapa;
 }
 .mapa{
     width: 100%;
