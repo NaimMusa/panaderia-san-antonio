@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%
 }
 html{
     font-size: 62.5%;
@@ -21,7 +22,6 @@ img{
 body{
     background-color: #d3d3d3 ;
     min-width: 100%;
-    zoom: 0%;
 }
 
 /* inicio css especifico*/
@@ -63,10 +63,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
     background-color: #b99d85;
     border-bottom: 0.35rem solid black;
-    position: fixed;
     z-index: 2;
     width: 100%;
 }
@@ -116,7 +114,6 @@ header{
     background-position: center;
     height: 40rem;
     grid-area: foto;
-    margin-top: 30rem;
     min-width: 100%;
     max-width: 100%;
 }
@@ -124,7 +121,7 @@ header{
 #cualidades{
     grid-area: cualidades;
     background-image:url(../img/tabla.jpg) ;
-    background-position: 90% 47%;
+    background-position: 90% 29%;
     margin-top: 1rem;
     padding: 3rem;
     height: 30rem;
@@ -132,7 +129,7 @@ header{
 
 .cualidades__titulo{
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-top: 3rem;
     color: rgb(9, 61, 31);
     font-family: 'Noto Serif Toto', serif;
@@ -144,7 +141,7 @@ header{
 }
 
 .cualidades__elementos img{
-height: 8rem;
+height: 5rem;
 }
 
 .calidad{
@@ -159,15 +156,13 @@ height: 8rem;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: rgb(117, 18, 18);
 }
 
 /*sobre nosotros*/
-#sobre{
-    margin-top: 25.5rem;
-}
+
 
 .nosotros{
     display: flex;
@@ -176,14 +171,22 @@ height: 8rem;
     margin-bottom: 5rem;
 }
 
+.nosotros div{
+    margin-top: 5rem;
+}
+
+.nuestra div{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 #sobre img{
-    height: 45rem;
+    height: 30rem;
     min-width: 100%;
 }
 
 #sobre div{
     text-align: center;
-    margin-top: 5rem;
 }
 
 .textos{
@@ -207,7 +210,6 @@ height: 8rem;
 
 /*productos*/
 #productos{
-    margin-top: 27rem;
     grid-area: productos;
     border: .2rem solid black;
     display: flex;
