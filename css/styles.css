@@ -50,6 +50,7 @@ body{
     "productos"
     "footer";
     grid-template-columns: 1;
+    background-color: white;
 }
 /*header*/
 header{
@@ -75,9 +76,10 @@ header{
 
 .menu__nav{
     display: flex;
+    flex-direction: column;
     list-style: none;
     align-items: center;
-    gap: 5rem;
+    gap: 1.5rem;
     font-size: 1.65rem;
     margin: 1.3rem;
 }
@@ -160,8 +162,8 @@ height: 8rem;
 /*sobre nosotros*/
 #sobre{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     background-color: #cacaca;
     grid-area: sobre;
     margin-top: 25.5rem;
@@ -214,33 +216,36 @@ height: 8rem;
     height: 50rem;
 }
 
-.product{
-    padding: 3rem;
-    background-color: white;
-    border: .2rem solid black;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-
-}
-
 /*footer*/
 footer{
     grid-area: footer;
     font-size: 1.4rem;
+    background-color:rgb(223, 217, 217) ;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
 }
 
 .contactanos {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-padding: 2.5rem;
+    flex-direction: column;
+    padding: 2.5rem;
+    margin-left: 4rem;
+    gap: .4rem;
 }
 
-.contactanos h2{
-position: relative;
-right: 2.5rem;
+.redes{
+    display: flex;
+    margin-top: 4rem;
+    margin-right: 4rem;
 }
+
+.redes img{
+    height: 3.4rem;
+}
+
 
 .contactanos div{
 display: flex;
@@ -251,9 +256,15 @@ display: flex;
     height: 3.4rem;
 }
 
-.whatsapp img{
+.contactanos h2{
     position: relative;
-    left: 1.5rem;
+    right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.whatsapp{
+    position: relative;
+    left: 1.4rem;
 }
 
 .ubicacion img{
@@ -264,4 +275,9 @@ display: flex;
     height: 2.3rem;
     position: relative;
     right: .3rem;
+}
+
+.correo{
+    position: relative;
+    right: .7rem;
 }
