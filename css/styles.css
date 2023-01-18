@@ -54,6 +54,27 @@ body{
     grid-template-columns: 1;
     background-color: white;
 }
+
+#eventos__body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "eventos"
+    "footer";
+    grid-template-columns: 1;
+}
+
+#contacto__body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "form"
+    "mapa"
+    "footer";
+    grid-template-columns: 1;
+    background-color: #5c8990;
+}
+
 /*header*/
 header{
     background-image: url(../img/diseño-head.png);
@@ -114,8 +135,7 @@ header{
     background-position: center;
     height: 40rem;
     grid-area: foto;
-    min-width: 100%;
-    max-width: 100%;
+    width: 100%;
 }
 
 #cualidades{
@@ -147,7 +167,7 @@ height: 5rem;
 .calidad{
     position: relative;
     bottom: 9rem;
-    right: 3rem;
+    right: 2rem;
 }
 
 .cualidades__elementos{
@@ -219,11 +239,110 @@ height: 5rem;
 }
 
 #productos img{
-    height: 40rem;
+    height: 27rem;
+    width: 100%;
 }
 
 #productos img:hover{
     height: 50rem;
+}
+
+/*eventos*/
+.servicios{
+    grid-area: eventos;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios div{
+    border: .3rem solid black;
+    padding: 5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color:#ce7b47;
+}
+
+.servicios img{
+    height: 40rem;
+}
+
+.servicios h2{
+    font-family: 'Noto Serif Toto', serif;
+    font-size: 2rem;
+}
+
+.servicios p{
+    font-size: 1.8rem;
+    color: rgb(240, 230, 213);
+    text-align: center;
+}
+
+/*contacto*/
+.formulario{
+    width: 33rem;
+    background-color: #24303c;
+    padding: 3rem;
+    margin: 5rem auto;
+    border-radius: .4rem;
+    color: white;
+    font-size: 1.8rem;
+    grid-area: form;
+}
+
+.control{
+    width: 100%;
+    background-color: #24303c ;
+    padding: .8rem;
+    border-radius: .4rem;
+    margin-bottom: 1.5rem;
+    border: .1rem solid #1f53c5;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.boton{
+    width: 100%;
+    border: none;
+    padding: 1.2rem;
+    margin: 1.3rem 0;
+    font-size: 1.6rem;
+    background-color:#1f53c5 ;
+    color: white
+}
+
+.desea{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 96% 4%;
+}
+
+.desea__boton{
+    align-content: center;
+    height: 2.1rem;
+}
+
+.grey{
+    color: grey;
+}
+
+option{
+    color: white;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    font-size: 2rem;
+    font-family: 'Noto Serif Toto', serif;
+}
+.mapa{
+    width: 100%;
+    margin-bottom: 4rem;
 }
 
 /*footer*/
@@ -290,4 +409,15 @@ display: flex;
 .correo{
     position: relative;
     right: .7rem;
+}
+
+.developed{
+    text-align: center;
+    font-weight:bold ;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.developed a{
+    color: rgb(48, 51, 190);
 }
