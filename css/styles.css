@@ -183,49 +183,35 @@ height: 5rem;
 
 /*sobre nosotros*/
 
-
-.nosotros{
-    display: flex;
-    flex-direction: column;
-    flex-flow: column-reverse;
-    margin-bottom: 5rem;
+#sobre{
+    grid-area: sobre;
 }
 
-.nosotros div{
-    margin-top: 5rem;
-}
-
-.nuestra div{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-#sobre img{
-    height: 30rem;
-    min-width: 100%;
-}
-
-#sobre div{
-    text-align: center;
-}
-
-.textos{
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.textos p{
-    font-size: 1.6rem;
-    padding: 1rem;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.textos h2{
-    font-family:'Noto Serif Toto', serif ;
+#sobre h2{
     font-size: 3rem;
-    color: rgb(255, 147, 5);
+}
+
+.sobre__atencion__img{
+    height: 40rem;
+    background-image: url(../img/atencion.jpg);
+    background-size: cover;
+}
+
+@media screen and (min-width: 960px ) {
+    .sobre__atencion__img{
+        height: 50rem;
+    }
+}
+.sobre__nosotros__img{
+    height: 40rem;
+    background-image: url(../img/nosotros.jpg);
+    background-size: cover;
+}
+
+@media screen and (min-width: 960px ) {
+    .sobre__nosotros__img{
+        height: 50rem;
+    }
 }
 
 /*productos*/
