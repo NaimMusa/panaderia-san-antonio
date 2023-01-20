@@ -294,6 +294,7 @@ height: 5rem;
     height: 40rem;
     background-image: url(../img/nosotros.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 @media screen and (min-width: 960px ) {
