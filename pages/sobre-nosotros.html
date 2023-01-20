@@ -16,17 +16,65 @@
     
     <header>
 
+            <img src="../img/san-antonio.jpg" alt="logo de la panaderia" class="logo">
+        
+                <nav class="navbar navbar-expand-lg d-lg-none">
+                    <button class="btn btn-primary iconito" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                        <img src="../img/hamburguesa.png" alt="menu" class="menu__icono">
+                    </button>
+        
+                    <div class="offcanvas offcanvas-top" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <h2 class="offcanvas-title" id="offcanvasScrollingLabel">Panadería San Antonio</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column justify-content-center">
+                        <a href="../index.html">Inicio</a>
+                        <a href="sobre-nosotros.html">Sobre nosotros</a>
+                        <a href="productos.html">Productos</a>
+                        <a href="eventos.html">Eventos</a>
+                        <a href="contacto.html">Contacto</a>
+                    </div>
+                    </div>
+                </nav>
+        
+                <nav class="d-none d-lg-block">
+                    <ul class="menu__nav">
+                        <li>
+                            <a href="../index.html">
+                                Inicio
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="sobre-nosotros.html">Sobre nosotros</a>
+                        </li>
+                        
+                        <li>
+                            <a href="productos.html">Productos</a>
+                        </li>
+        
+                        <li>
+                            <a href="eventos.html">Eventos</a>
+                        </li>
+        
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            
     </header>
 
     <section id="sobre" class="row d-flex align-items-center">
-            <div class="col-12 col-md-6 sobre__atencion__img"></div>
+            <div class="col-12 col-md-6 sobre__atencion__img wow animate__animated animate__fadeInBottomLeft"></div>
 
-            <div class="col-12 col-md-6 text-center px-4">
+            <div class="col-12 col-md-6 text-center px-4 wow animate__animated animate__bounceInDown animate__slow">
                 <h2 class="mt-5 text-success fw-bolder">Nuestra panadería</h2>
                 <p class="fs-3 mt-5 fw-bold">Contamos con un equipo de panaderos altamente capacitados y con una amplia experiencia en la elaboración de panes y pasteles de todo tipo. Además, ofrecemos una gran variedad de opciones, desde panes tradicionales hasta opciones más innovadoras y saludables, como panes integrales y sin gluten.</p>
             </div>
-            <div class="col-12 col-md-6 sobre__nosotros__img order-md-1"></div>
-            <div class="col-12 col-md-6 text-center px-4">
+            <div class="col-12 col-md-6 sobre__nosotros__img order-md-1 wow animate__animated animate__fadeInBottomLeft"></div>
+            <div class="col-12 col-md-6 text-center px-4 wow animate__animated animate__bounceInDown animate__slow">
             <h2 class="mt-5 text-success fw-bolder">Nosotros</h2>
             <p class="fs-3 mt-5 fw-bold">En nuestra panadería, nuestro objetivo principal es proporcionar una atención al cliente excepcional a cada persona que entra por nuestra puerta. Somos amables y accesibles, y estamos dispuestos a hacer lo que sea necesario para satisfacer a nuestros clientes. Además, mantenemos un alto nivel de higiene y limpieza, para garantizar la seguridad alimentaria de nuestros clientes y productos.</p>
             </div>

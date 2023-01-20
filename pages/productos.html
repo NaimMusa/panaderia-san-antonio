@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/san-antonio.jpg">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Toto&display=swap" rel="stylesheet">
@@ -13,36 +14,57 @@
 </head>
 <body id="productos__body">
     
-    <header id="head-sobre">
-        <a href="index.html">
-            <img src="../img/san-antonio.jpg" alt="Logo de la Panadería" class="logo">
-        </a>
-        <nav>
-            <ul class="menu__nav">
-                <li>
-                    <a href="../index.html">
-                        Inicio
-                    </a>
-                </li>
+    <header>
 
-                <li>
+        <img src="../img/san-antonio.jpg" alt="logo de la panaderia" class="logo">
+    
+            <nav class="navbar navbar-expand-lg d-lg-none">
+                <button class="btn btn-primary iconito" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <img src="../img/hamburguesa.png" alt="menu" class="menu__icono">
+                </button>
+    
+                <div class="offcanvas offcanvas-top" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasScrollingLabel">Panadería San Antonio</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-center">
+                    <a href="../index.html">Inicio</a>
                     <a href="sobre-nosotros.html">Sobre nosotros</a>
-                </li>
-                
-                <li>
                     <a href="productos.html">Productos</a>
-                </li>
-
-                <li>
                     <a href="eventos.html">Eventos</a>
-                </li>
-
-                <li>
                     <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+                </div>
+                </div>
+            </nav>
+    
+            <nav class="d-none d-lg-block">
+                <ul class="menu__nav">
+                    <li>
+                        <a href="../index.html">
+                            Inicio
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+                    
+                    <li>
+                        <a href="productos.html">Productos</a>
+                    </li>
+    
+                    <li>
+                        <a href="eventos.html">Eventos</a>
+                    </li>
+    
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        
+</header>
 
     <section id="productos">
         <article class="product">
@@ -125,6 +147,7 @@
 <p class="developed">desarrollado por <a href="https://www.instagram.com/naim.musaa/">Naim Musa Ventura &#169</a> </p>
     </footer>
 
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
     new WOW().init();
