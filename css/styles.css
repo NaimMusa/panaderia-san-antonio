@@ -178,7 +178,15 @@ header a{
     grid-area: foto;
     width: 100%;
 }
+@media screen and (min-width: 1140px) {
+    .foto__inicio{
+        height: 60rem;
+    }
 
+    #cualidades{
+        height: 50rem;
+    }
+}
 #cualidades{
     grid-area: cualidades;
     background-image:url(../img/tabla.jpg) ;
@@ -188,6 +196,20 @@ header a{
     height: 30rem;
 }
 
+@media screen and (min-width: 1140px){
+    #cualidades{
+        height: 45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .cualidades__elementos{
+        margin-bottom: 6rem;
+    }
+
+}
 .cualidades__titulo{
     text-align: center;
     font-size: 2.5rem;
@@ -217,9 +239,26 @@ height: 5rem;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
     font-weight: bolder;
     color: rgb(117, 18, 18);
+}
+
+@media screen and (min-width: 1140px){
+    .cualidades__elementos{
+        font-size: 10rem;
+    }
+
+    .cualidades__elementos img{
+        height: 12rem;
+        }
+
+    .cualidad__text{
+        font-size: 3rem;
+    }
+
+    .cualidades__titulo{
+        font-size: 5rem;
+    }
 }
 
 /*sobre nosotros*/
@@ -383,13 +422,14 @@ footer{
 #info{
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactanos {
     display: flex;
     flex-direction: column;
     padding: 2.5rem;
-    margin-left: 4rem;
     gap: .4rem;
 }
 
@@ -398,6 +438,7 @@ footer{
     margin-top: 4rem;
     margin-right: 4rem;
 }
+
 
 .redes img{
     height: 3.4rem;
@@ -417,6 +458,7 @@ display: flex;
     position: relative;
     right: 5rem;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .whatsapp{
@@ -426,17 +468,25 @@ display: flex;
 
 .ubicacion img{
     height: 2.3rem;
+    position: relative;
+    bottom: .5rem;
 }
 
 .telefono img{
     height: 2.3rem;
     position: relative;
     right: .3rem;
+    bottom: .4rem;
 }
 
 .correo{
     position: relative;
     right: .7rem;
+}
+
+.correo img{
+    position: relative;
+    bottom: .5rem;
 }
 
 .developed{
@@ -448,4 +498,32 @@ display: flex;
 
 .developed a{
     color: rgb(48, 51, 190);
+}
+
+@media screen and (min-width:894px) {
+
+    .contactanos{
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .redes img{
+    height: 3.8rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    footer{
+        font-size: 1.9rem;
+    }
+
+    #info{
+        justify-content: space-evenly;
+        gap: 55rem;
+    }
+
+    .contactanos h2{
+    font-size: 3rem;
+    }
+    
 }
