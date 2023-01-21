@@ -120,6 +120,9 @@ header a{
     background-color: #b99d85;
 }
 
+.offcanvas{
+    background-color: #b99d85 ;
+}
 /*menu para pantallas grandes*/
 @media screen and (min-width: 992px) {
     header{
