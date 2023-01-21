@@ -351,11 +351,11 @@ height: 5rem;
 
 @media screen and (min-width: 1200px) {
     .carousel-inner{
-        height: 65rem;
+        height: 69rem;
     }
     
     .carousel-inner img{
-        height:65rem;
+        height:69rem;
     }
     
 }
