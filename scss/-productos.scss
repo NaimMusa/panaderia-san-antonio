@@ -1,0 +1,56 @@
+
+/*productos*/
+#productos-carrusel{
+    grid-area: productos-carrusel;
+}
+
+#productos{
+    grid-area: productos;
+    margin-top: 2rem;
+
+    img{
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+        height: 25rem;
+    }
+}
+
+
+@media screen and (max-width:768) {
+    #productos img{
+        height: 55rem;
+    }
+}
+.carousel-inner{
+    height: 35rem;
+
+    img{
+        height:35rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .carousel-inner{
+        height: 55rem;
+
+        img{
+            height:55rem;
+        }
+    }
+    
+    #productos img{
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .carousel-inner{
+        height: 69rem;
+
+        img{
+            height:69rem;
+        }
+    }
+
+}

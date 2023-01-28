@@ -1,0 +1,127 @@
+
+/*footer*/
+footer{
+    grid-area: footer;
+    font-size: 1.4rem;
+    background-color:rgb(223, 217, 217) ;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: .4rem;
+
+    div{
+    display: flex;
+    align-items: center;
+    }
+
+    img{
+        height: 3.4rem;
+    }
+
+    h2{
+        position: relative;
+        right: 5rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+}
+
+.redes{
+    display: flex;
+    margin-top: 4rem;
+    margin-right: 4rem;
+
+    img{
+        height: 3.4rem;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .contactanos h2{
+        right: 2rem;
+    }
+}
+.whatsapp{
+    position: relative;
+    left: 1.4rem;
+}
+
+.ubicacion img{
+    height: 2.3rem;
+    position: relative;
+    bottom: .5rem;
+}
+
+.telefono img{
+    height: 2.3rem;
+    position: relative;
+    right: .3rem;
+    bottom: .4rem;
+}
+
+.correo{
+    position: relative;
+    right: .7rem;
+}
+
+.correo img{
+    position: relative;
+    bottom: .5rem;
+}
+
+.developed{
+    text-align: center;
+    font-weight:bold ;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.developed a{
+    color: rgb(48, 51, 190);
+}
+
+@media screen and (min-width:894px) {
+
+    .contactanos{
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .redes img{
+    height: 3.8rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    footer{
+        font-size: 1.9rem;
+    }
+
+    #info{
+        justify-content: space-evenly;
+        gap: 10rem;
+    }
+
+    .contactanos h2{
+    font-size: 3rem;
+    margin-left: 5rem;
+    }
+    
+}
+
+@media screen and (min-height:1100px){
+    footer{
+        padding: 2rem;
+    }
+}

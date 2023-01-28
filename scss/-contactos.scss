@@ -1,0 +1,74 @@
+
+/*contacto*/
+.formulario{
+    width: 28rem;
+    background-color: #24303c;
+    padding: 3rem;
+    margin: 5rem auto;
+    border-radius: .4rem;
+    color: white;
+    font-size: 1.8rem;
+    grid-area: form;
+}
+
+@media screen and (min-width:768px){
+    .formulario{
+        width: 50rem;
+    }
+}
+
+.control{
+    width: 100%;
+    background-color: #24303c ;
+    padding: .8rem;
+    border-radius: .4rem;
+    margin-bottom: 1.5rem;
+    border: .1rem solid #1f53c5;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.boton{
+    width: 100%;
+    border: none;
+    padding: 1.2rem;
+    margin: 1.3rem 0;
+    font-size: 1.6rem;
+    background-color:#1f53c5 ;
+    color: white
+}
+
+.desea{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 96% 4%;
+}
+
+.desea__boton{
+    align-content: center;
+    height: 2.1rem;
+}
+
+.grey{
+    color: grey;
+}
+
+option{
+    color: white;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    font-size: 1.7rem;
+    font-family: 'Noto Serif Toto', serif;
+    grid-area: mapa;
+    justify-content: center;
+}
+.mapa{
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-left: .7rem;
+}

@@ -1,0 +1,35 @@
+
+/*eventos*/
+
+.servicios{
+    margin: 0 5rem;
+
+    div{
+        border: .3rem solid black;
+        padding: 5rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        background-color:#ce7b47;
+    }
+
+    img{
+        height: 40rem;
+    }
+
+    h2{
+        font-family: 'Noto Serif Toto', serif;
+        font-size: 2.2rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.8rem;
+        color: rgb(240, 230, 213);
+        text-align: center;
+    }
+}
