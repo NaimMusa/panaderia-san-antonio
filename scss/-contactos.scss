@@ -60,13 +60,13 @@ option{
 .map{
     @include flex-column-center;
     text-align: center;
-    gap: 2rem;
+    gap: $regular-spacing - 2rem;
     font-size: 1.7rem;
-    font-family: 'Noto Serif Toto', serif;
+    font-family: $titulos;
     grid-area: mapa;
 }
 .mapa{
     width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: $regular-spacing;
     margin-left: .7rem;
 }

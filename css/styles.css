@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*variables*/
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +63,7 @@ header {
   header a {
     font-size: 2rem;
     color: black;
-    font-family: 'Noto Serif Toto', serif; }
+    font-family: "Noto Serif Toto", serif; }
 
 .logo {
   height: 13rem;
@@ -79,7 +80,7 @@ header {
 
 .btn-primary {
   background-color: #b99d85;
-  border: .1rem solid #b99d85; }
+  border: 0.1rem solid #b99d85; }
   .btn-primary:hover {
     background-color: #b99d85; }
 
@@ -114,7 +115,7 @@ header {
       border-radius: 9%;
       padding: .3rem;
       font-weight: 900;
-      font-family: 'Noto Serif Toto', serif; }
+      font-family: "Noto Serif Toto", serif; }
   .menu__nav a:hover {
     background-color: rgba(19, 49, 58, 0.61);
     padding: .6rem;
@@ -161,7 +162,7 @@ header {
   font-size: 2.5rem;
   margin-top: 3rem;
   color: #093d1f;
-  font-family: 'Noto Serif Toto', serif;
+  font-family: "Noto Serif Toto", serif;
   position: relative;
   right: 0rem;
   bottom: 5rem;
@@ -269,7 +270,7 @@ header {
   .servicios img {
     height: 40rem; }
   .servicios h2 {
-    font-family: 'Noto Serif Toto', serif;
+    font-family: "Noto Serif Toto", serif;
     font-size: 2.2rem;
     font-weight: bolder;
     margin-bottom: 2rem;
@@ -335,7 +336,7 @@ option {
   text-align: center;
   gap: 2rem;
   font-size: 1.7rem;
-  font-family: 'Noto Serif Toto', serif;
+  font-family: "Noto Serif Toto", serif;
   grid-area: mapa; }
 
 .mapa {

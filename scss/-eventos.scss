@@ -8,7 +8,7 @@
         @include flex-column-aligncenter;
         border: .3rem solid black;
         padding: 5rem;
-        margin: 2rem;
+        margin: $regular-spacing - 2rem;
         gap: 3rem;
         background-color:#ce7b47;
     }
@@ -18,7 +18,7 @@
     }
 
     h2{
-        font-family: 'Noto Serif Toto', serif;
+        font-family: $titulos;
         font-size: 2.2rem;
         font-weight: bolder;
         margin-bottom: 2rem;

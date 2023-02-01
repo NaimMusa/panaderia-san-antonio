@@ -6,11 +6,11 @@
 
 #productos{
     grid-area: productos;
-    margin-top: 2rem;
+    margin-top: $regular-spacing - 2rem;
 
     img{
         margin-left: 1.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: $regular-spacing;
         height: 25rem;
     }
 }

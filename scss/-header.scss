@@ -4,7 +4,7 @@ header{
     background-size: cover;
     background-position: 20rem 70%;
     grid-area: header;
-    background-color: #b99d85;
+    background-color: $color-principal;
     border-bottom: 0.35rem solid black;
     width: 100%;
     height: 16rem;
@@ -13,7 +13,7 @@ header{
     a{
         font-size: 2rem;
         color: rgb(0, 0, 0);
-        font-family:'Noto Serif Toto', serif ;
+        font-family:$titulos;
     }
 }
 
@@ -29,21 +29,21 @@ header{
 }
 
 .menu__icono{
-    background-color: #b99d85;
-    height: 4rem;
+    background-color: $color-principal;
+    height: $regular-spacing;
 }
 
 .btn-primary{
-    background-color: #b99d85;
-    border: .1rem solid #b99d85;
+    background-color: $color-principal;
+    border: .1rem solid $color-principal;
 
     &:hover{
-        background-color: #b99d85;
+        background-color: $color-principal;
     }
 }
 
 .offcanvas{
-    background-color: #b99d85 ;
+    background-color: $color-principal ;
 }
 /*menu para pantallas grandes*/
 @media screen and (min-width: 992px) {
@@ -53,7 +53,7 @@ header{
         background-size: cover;
         background-position: 20rem 70%;
         grid-area: header;
-        background-color: #b99d85;
+        background-color: $color-principal;
         border-bottom: 0.35rem solid black;
         width: 100%;
         height: 22rem;
@@ -64,7 +64,7 @@ header{
         display: flex;
         list-style: none;
         align-items: center;
-        gap: 4rem;
+        gap: $regular-spacing;
         font-size: 1.65rem;
         margin: 1.3rem;
 
@@ -74,7 +74,7 @@ header{
             border-radius: 9%;
             padding: .3rem;
             font-weight: 900;
-            font-family:'Noto Serif Toto', serif ;
+            font-family:$titulos ;
         }
     }
     

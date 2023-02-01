@@ -1,5 +1,8 @@
+/*variables*/
 
-
+$titulos: 'Noto Serif Toto', serif;
+$color-principal: #b99d85;
+$regular-spacing: 4rem;
 
 @mixin flex-column-center{
     display: flex;

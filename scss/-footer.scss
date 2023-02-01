@@ -38,8 +38,8 @@ footer{
 
 .redes{
     display: flex;
-    margin-top: 4rem;
-    margin-right: 4rem;
+    margin-top: $regular-spacing;
+    margin-right: $regular-spacing;
 
     img{
         height: 3.4rem;
@@ -49,7 +49,7 @@ footer{
 
 @media screen and (max-width:576px) {
     .contactanos h2{
-        right: 2rem;
+        right: $regular-spacing - 2rem;
     }
 }
 .whatsapp{
@@ -84,7 +84,7 @@ footer{
     text-align: center;
     font-weight:bold ;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: $regular-spacing - 2rem;
 }
 
 .developed a{
@@ -95,7 +95,7 @@ footer{
 
     .contactanos{
         flex-direction: row;
-        gap: 2rem;
+        gap: $regular-spacing - 2rem;
     }
 
     .redes img{
@@ -122,6 +122,6 @@ footer{
 
 @media screen and (min-height:1100px){
     footer{
-        padding: 2rem;
+        padding: $regular-spacing - 2rem;
     }
 }
