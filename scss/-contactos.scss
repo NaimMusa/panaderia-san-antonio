@@ -58,14 +58,12 @@ option{
 }
 
 .map{
-    display: flex;
-    flex-direction: column;
+    @include flex-column-center;
     text-align: center;
     gap: 2rem;
     font-size: 1.7rem;
     font-family: 'Noto Serif Toto', serif;
     grid-area: mapa;
-    justify-content: center;
 }
 .mapa{
     width: 100%;

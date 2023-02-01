@@ -89,13 +89,13 @@ header {
 /*menu para pantallas grandes*/
 @media screen and (min-width: 992px) {
   header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../img/diseño-head.png);
     background-size: cover;
     background-position: 20rem 70%;
     grid-area: header;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #b99d85;
     border-bottom: 0.35rem solid black;
     width: 100%;
@@ -115,11 +115,6 @@ header {
       padding: .3rem;
       font-weight: 900;
       font-family: 'Noto Serif Toto', serif; }
-    .menu__nav img {
-      height: 1.8rem;
-      align-items: center;
-      align-content: center;
-      transform: translatey(0.4rem); }
   .menu__nav a:hover {
     background-color: rgba(19, 49, 58, 0.61);
     padding: .6rem;
@@ -154,10 +149,10 @@ header {
 
 @media screen and (min-width: 1140px) {
   #cualidades {
-    height: 50rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    height: 50rem; }
   .cualidades__elementos {
     margin-bottom: 6rem; } }
 
@@ -224,16 +219,51 @@ header {
   .sobre__nosotros__img {
     height: 50rem; } }
 
+/*productos*/
+#productos-carrusel {
+  grid-area: productos-carrusel; }
+
+#productos {
+  grid-area: productos;
+  margin-top: 2rem; }
+  #productos img {
+    margin-left: 1.5rem;
+    margin-bottom: 4rem;
+    height: 25rem; }
+
+@media screen and (max-width: 768) {
+  #productos img {
+    height: 55rem; } }
+
+.carousel-inner {
+  height: 35rem; }
+  .carousel-inner img {
+    height: 35rem; }
+
+@media screen and (min-width: 992px) {
+  .carousel-inner {
+    height: 55rem; }
+    .carousel-inner img {
+      height: 55rem; }
+  #productos img {
+    height: 30rem; } }
+
+@media screen and (min-width: 1200px) {
+  .carousel-inner {
+    height: 69rem; }
+    .carousel-inner img {
+      height: 69rem; } }
+
 /*eventos*/
 .servicios {
   margin: 0 5rem; }
   .servicios div {
-    border: .3rem solid black;
-    padding: 5rem;
-    margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: .3rem solid black;
+    padding: 5rem;
+    margin: 2rem;
     gap: 3rem;
     background-color: #ce7b47; }
   .servicios img {
@@ -301,12 +331,12 @@ option {
 .map {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
   gap: 2rem;
   font-size: 1.7rem;
   font-family: 'Noto Serif Toto', serif;
-  grid-area: mapa;
-  justify-content: center; }
+  grid-area: mapa; }
 
 .mapa {
   width: 100%;

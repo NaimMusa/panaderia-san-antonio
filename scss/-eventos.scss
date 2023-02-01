@@ -5,12 +5,10 @@
     margin: 0 5rem;
 
     div{
+        @include flex-column-aligncenter;
         border: .3rem solid black;
         padding: 5rem;
         margin: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         gap: 3rem;
         background-color:#ce7b47;
     }

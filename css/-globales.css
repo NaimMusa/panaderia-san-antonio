@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #d3d3d3;
+  min-width: 100%;
+}
+
+#index__body {
+  display: grid;
+  grid-template-areas: "header" "foto" "cualidades" "footer";
+  grid-template-columns: 1fr;
+}
+
+#sobre__body {
+  display: grid;
+  grid-template-areas: "header" "sobre" "footer";
+  grid-template-columns: 1;
+}
+
+#productos__body {
+  display: grid;
+  grid-template-areas: "header" "productos-carrusel" "productos" "footer";
+  grid-template-columns: 1;
+  background-color: rgb(34, 32, 32);
+}
+
+#eventos__body {
+  display: grid;
+  grid-template-areas: "header" "eventos" "footer";
+  grid-template-columns: 1;
+}
+
+#contacto__body {
+  display: grid;
+  grid-template-areas: "header" "form" "mapa" "footer";
+  grid-template-columns: 1;
+  background-image: linear-gradient(to right, #d6d7a5, #5c8990);
+}
+
+/*# sourceMappingURL=-globales.css.map */

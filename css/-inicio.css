@@ -1,0 +1,91 @@
+/*index*/
+.foto__inicio {
+  background-image: url(../img/foto-panaderia.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+  grid-area: foto;
+  width: 100%;
+}
+
+@media screen and (min-width: 1140px) {
+  .foto__inicio {
+    height: 60rem;
+  }
+  #cualidades {
+    height: 50rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .foto__inicio {
+    height: 75rem;
+  }
+}
+#cualidades {
+  grid-area: cualidades;
+  background-image: url(../img/tabla.jpg);
+  background-position: 90% 29%;
+  margin-top: 1rem;
+  padding: 3rem;
+  height: 30rem;
+}
+
+@media screen and (min-width: 1140px) {
+  #cualidades {
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cualidades__elementos {
+    margin-bottom: 6rem;
+  }
+}
+.cualidades__titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  color: rgb(9, 61, 31);
+  font-family: "Noto Serif Toto", serif;
+  position: relative;
+  right: 0rem;
+  bottom: 5rem;
+  background-color: rgb(206, 199, 199);
+  border: 0.3rem solid black;
+}
+
+.calidad {
+  position: relative;
+  bottom: 9rem;
+  right: 2rem;
+}
+
+.cualidades__elementos {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(117, 18, 18);
+}
+.cualidades__elementos img {
+  height: 5rem;
+}
+
+@media screen and (min-width: 1140px) {
+  .cualidades__elementos {
+    font-size: 10rem;
+  }
+  .cualidades__elementos img {
+    height: 10rem;
+  }
+  .cualidad__text {
+    font-size: 3rem;
+  }
+  .cualidades__titulo {
+    font-size: 3.5rem;
+  }
+}
+
+/*# sourceMappingURL=-inicio.css.map */
