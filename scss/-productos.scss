@@ -1,5 +1,26 @@
 
 /*productos*/
+
+.productos__title{
+    @extend .title__events;
+    grid-area: titulo;
+    margin: 2rem;
+
+    h1{
+        background-color: rgb(87, 211, 30);
+        font-family: $titulos;
+        padding: 3rem;
+        font-weight: 900;
+        font-size: 3rem;
+        text-align: center;
+
+    strong{
+        font-family: $titulos;
+    }
+    }
+}
+
+
 #productos-carrusel{
     grid-area: productos-carrusel;
 }

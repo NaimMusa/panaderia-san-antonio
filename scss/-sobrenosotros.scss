@@ -9,6 +9,21 @@
     }
 }
 
+.sobre__title{
+    @extend .title__events;
+    grid-area: titulo;
+    background-color: rgb(121, 51, 202);
+    margin: 2rem;
+
+    h1{
+        font-size: 4rem;
+        font-family: $titulos;
+        margin: 2rem;
+        color: rgb(8, 147, 202);
+        text-align: center;
+    }
+}
+
 .sobre__atencion__img{
     height: 40rem;
     background-image: url(../img/atencion.jpg);

@@ -29,12 +29,12 @@ body {
 
 #sobre__body {
   display: grid;
-  grid-template-areas: "header" "sobre" "footer";
+  grid-template-areas: "header" "titulo" "sobre" "footer";
   grid-template-columns: 1; }
 
 #productos__body {
   display: grid;
-  grid-template-areas: "header" "productos-carrusel" "productos" "footer";
+  grid-template-areas: "header" "titulo" "productos-carrusel" "productos" "footer";
   grid-template-columns: 1;
   background-color: #222020; }
 
@@ -201,6 +201,17 @@ header {
   #sobre h2 {
     font-size: 3rem; }
 
+.sobre__title {
+  grid-area: titulo;
+  background-color: #7933ca;
+  margin: 2rem; }
+  .sobre__title h1 {
+    font-size: 4rem;
+    font-family: "Noto Serif Toto", serif;
+    margin: 2rem;
+    color: #0893ca;
+    text-align: center; }
+
 .sobre__atencion__img {
   height: 40rem;
   background-image: url(../img/atencion.jpg);
@@ -221,6 +232,19 @@ header {
     height: 50rem; } }
 
 /*productos*/
+.productos__title {
+  grid-area: titulo;
+  margin: 2rem; }
+  .productos__title h1 {
+    background-color: #57d31e;
+    font-family: "Noto Serif Toto", serif;
+    padding: 3rem;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center; }
+    .productos__title h1 strong {
+      font-family: "Noto Serif Toto", serif; }
+
 #productos-carrusel {
   grid-area: productos-carrusel; }
 
@@ -279,6 +303,21 @@ header {
     font-size: 1.8rem;
     color: #f0e6d5;
     text-align: center; }
+
+.title__events, .sobre__title, .productos__title {
+  display: flex;
+  justify-content: center; }
+
+.eventos__title {
+  display: inline-block;
+  font-family: "Noto Serif Toto", serif;
+  color: #b99d85;
+  font-weight: bolder;
+  font-size: 3rem;
+  background-color: #1481da;
+  margin: 2rem auto;
+  border-radius: 10%;
+  padding: 2rem; }
 
 /*contacto*/
 .formulario {
