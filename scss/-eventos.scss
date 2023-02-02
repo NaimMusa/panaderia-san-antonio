@@ -7,7 +7,7 @@
     div{
         @include flex-column-aligncenter;
         border: .3rem solid black;
-        padding: 5rem;
+        padding: 1rem;
         margin: $regular-spacing - 2rem;
         gap: 3rem;
         background-color:#ce7b47;
@@ -43,5 +43,4 @@
     color: $color-principal;
     font-weight: bolder;
     font-size: 3rem;
-    margin: 2rem auto;
 }
