@@ -314,10 +314,7 @@ header {
   color: #b99d85;
   font-weight: bolder;
   font-size: 3rem;
-  background-color: #1481da;
-  margin: 2rem auto;
-  border-radius: 10%;
-  padding: 2rem; }
+  margin: 2rem auto; }
 
 /*contacto*/
 .formulario {
