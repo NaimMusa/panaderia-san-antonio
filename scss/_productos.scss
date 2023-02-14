@@ -33,6 +33,10 @@
         margin-left: 1.5rem;
         margin-bottom: $regular-spacing;
         height: 25rem;
+
+        &:hover{
+            filter: grayscale(80%);
+        }
     }
 }
 
@@ -75,3 +79,4 @@
     }
 
 }
+

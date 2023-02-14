@@ -23,43 +23,28 @@ body {
 
 #index__body {
   display: grid;
-  grid-template-areas: "header"
- "foto"
- "cualidades"
- "footer";
+  grid-template-areas: "header" "foto" "cualidades" "footer";
   grid-template-columns: 1fr; }
 
 #sobre__body {
   display: grid;
-  grid-template-areas: "header"
- "titulo"
- "sobre"
- "footer";
+  grid-template-areas: "header" "titulo" "sobre" "footer";
   grid-template-columns: 1; }
 
 #productos__body {
   display: grid;
-  grid-template-areas: "header"
- "titulo"
- "productos-carrusel"
- "productos"
- "footer";
+  grid-template-areas: "header" "titulo" "productos-carrusel" "productos" "footer";
   grid-template-columns: 1;
   background-color: #222020; }
 
 #eventos__body {
   display: grid;
-  grid-template-areas: "header"
- "eventos"
- "footer";
+  grid-template-areas: "header" "eventos" "footer";
   grid-template-columns: 1; }
 
 #contacto__body {
   display: grid;
-  grid-template-areas: "header"
- "form"
- "mapa"
- "footer";
+  grid-template-areas: "header" "form" "mapa" "footer";
   grid-template-columns: 1;
   background-image: linear-gradient(to right, #d6d7a5, #5c8990); }
 
@@ -272,6 +257,8 @@ header {
     margin-left: 1.5rem;
     margin-bottom: 4rem;
     height: 25rem; }
+    #productos img:hover {
+      filter: grayscale(80%); }
 
 @media screen and (max-width: 768) {
   #productos img {
