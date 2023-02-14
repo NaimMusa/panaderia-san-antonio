@@ -23,28 +23,43 @@ body {
 
 #index__body {
   display: grid;
-  grid-template-areas: "header" "foto" "cualidades" "footer";
+  grid-template-areas: "header"
+ "foto"
+ "cualidades"
+ "footer";
   grid-template-columns: 1fr; }
 
 #sobre__body {
   display: grid;
-  grid-template-areas: "header" "titulo" "sobre" "footer";
+  grid-template-areas: "header"
+ "titulo"
+ "sobre"
+ "footer";
   grid-template-columns: 1; }
 
 #productos__body {
   display: grid;
-  grid-template-areas: "header" "titulo" "productos-carrusel" "productos" "footer";
+  grid-template-areas: "header"
+ "titulo"
+ "productos-carrusel"
+ "productos"
+ "footer";
   grid-template-columns: 1;
   background-color: #222020; }
 
 #eventos__body {
   display: grid;
-  grid-template-areas: "header" "eventos" "footer";
+  grid-template-areas: "header"
+ "eventos"
+ "footer";
   grid-template-columns: 1; }
 
 #contacto__body {
   display: grid;
-  grid-template-areas: "header" "form" "mapa" "footer";
+  grid-template-areas: "header"
+ "form"
+ "mapa"
+ "footer";
   grid-template-columns: 1;
   background-image: linear-gradient(to right, #d6d7a5, #5c8990); }
 
@@ -119,6 +134,9 @@ header {
     background-color: rgba(19, 49, 58, 0.61);
     padding: .6rem;
     border-radius: 10%; } }
+
+.offcanvas.offcanvas-top {
+  height: 39rem; }
 
 /*index*/
 .foto__inicio {
