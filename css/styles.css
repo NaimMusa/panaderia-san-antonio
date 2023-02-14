@@ -413,18 +413,21 @@ footer {
 
 .redes {
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   margin-top: 4rem;
-  margin-right: 4rem; }
+  margin-right: 4rem;
+  margin-bottom: 4rem; }
   .redes img {
     height: 3.4rem; }
+
+.instagram {
+  position: relative;
+  right: 1.3rem; }
 
 @media screen and (max-width: 576px) {
   .contactanos h2 {
     right: 2rem; } }
-
-.whatsapp {
-  position: relative;
-  left: 1.4rem; }
 
 .ubicacion img {
   height: 2.3rem;
@@ -458,8 +461,15 @@ footer {
   .contactanos {
     flex-direction: row;
     gap: 2rem; }
-  .redes img {
-    height: 3.8rem; } }
+    .contactanos h2 {
+      left: .1rem; }
+  .redes {
+    flex-direction: row; }
+    .redes img {
+      height: 3.8rem; }
+  .instagram {
+    right: 0;
+    left: 1.5rem; } }
 
 @media screen and (min-width: 1200px) {
   footer {

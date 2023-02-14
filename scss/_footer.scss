@@ -38,12 +38,20 @@ footer{
 
 .redes{
     display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     margin-top: $regular-spacing;
     margin-right: $regular-spacing;
+    margin-bottom: $regular-spacing;
 
     img{
         height: 3.4rem;
     }
+}
+
+.instagram{
+    position: relative;
+    right: 1.3rem;
 }
 
 
@@ -52,10 +60,7 @@ footer{
         right: $regular-spacing - 2rem;
     }
 }
-.whatsapp{
-    position: relative;
-    left: 1.4rem;
-}
+
 
 .ubicacion img{
     height: 2.3rem;
@@ -96,10 +101,23 @@ footer{
     .contactanos{
         flex-direction: row;
         gap: $regular-spacing - 2rem;
+        
+        h2{
+            left:.1rem;
+        }
     }
 
-    .redes img{
-    height: 3.8rem;
+    .redes{
+        flex-direction: row;
+
+        img{
+            height: 3.8rem;
+        }
+    }
+
+    .instagram{
+        right: 0;
+        left: 1.5rem;
     }
 }
 
@@ -116,6 +134,7 @@ footer{
     .contactanos h2{
     font-size: 3rem;
     margin-left: 5rem;
+    
     }
     
 }
